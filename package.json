@@ -1,0 +1,21 @@
+{
+  "name": "Weekly-Inspiration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "link-upstream": "git remote add upstream https://github.com/overlineink/Weekly-Inspiration.git",
+    "sync": "git checkout master && git fetch upstream && git merge upstream/master"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StarickDosSantos/Weekly-Inspiration.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StarickDosSantos/Weekly-Inspiration/issues"
+  },
+  "homepage": "https://github.com/StarickDosSantos/Weekly-Inspiration#readme"
+}
