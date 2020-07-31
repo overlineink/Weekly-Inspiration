@@ -1,23 +1,24 @@
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     width: 100%;
- 
 }
-body{
+
+body {
     width: 100%;
     height: 100%;
-    background:url(`);
-
+    background: url(`);
 }
-button{
+
+button {
     border: none;
     border-radius: 0px;
     padding: 0px;
 }
 
-ul{
+ul {
     list-style: none;
     text-decoration: none;
     display: inline;
@@ -26,16 +27,16 @@ ul{
 
 
 
-.nav{
+.nav {
     position: fixed;
     top: 0px;
     margin: 0px;
     left: 0px;
     padding: 0px;
     width: 0px;
-
 }
-.logo{
+
+.logo {
     letter-spacing: 1px;
     float: left;
     color: brown;
@@ -43,71 +44,78 @@ ul{
     line-height: 60px;
     padding: 0 6px;
 }
-.menu{
+
+.menu {
     float: right;
     line-height: 60px;
     margin: 0;
 }
 
-.menu ul{
+.menu ul {
     list-style: none;
 }
- .menu ul li{
-     display: inline-block;
- } 
- .menu ul li a{
 
+.menu ul li {
+    display: inline-block;
+}
+
+.menu ul li a {
     text-decoration: none;
-    color:rgb(49, 48, 48);
+    color: rgb(49, 48, 48);
     font-weight: lighter;
-    padding:  0 20px;
- }
- ..h-full{
-     height: 100vh;
- }
- .bg-dark{
-     background-color: darkgray;
- }
- .btn {
+    padding: 0 20px;
+}
+
+.h-full {
+    height: 100vh;
+}
+
+.bg-dark {
+    background-color: darkgray;
+}
+
+.btn {
     font-size: 10px;
-    padding: 20px 12px 20px 12px; 
+    padding: 20px 12px 20px 12px;
     border-radius: 28px;
-    border: none ;
-    color:#fefefe;
+    border: none;
+    color: #fefefe;
     background: #000;
     font-weight: bold;
+}
 
- }
+.apresentacao_produto {
+    display: flex;
+    height: 55px;
+}
 
- .apresentacao_produto{
-     display: flex;
-     height: 55px;
- }
- .apresentacao{
-     width: 100%;
-     padding: 55px;
-     
- }
- .title{
-     width: 90%;
-     font-size: 100px;
-     line-height: 50px;
+.apresentacao {
+    width: 100%;
+    padding: 55px;
+}
 
- }
- .pretitle{
-     width: 60%;
-     margin-top: .5rem;
-     font-size: 16bbbbbbbbpx;
- }
- .suport{
-     display: flex;
- }
- .suport >p{
-     font-size: 6px;
-     width: 50%;
- }
+.title {
+    width: 90%;
+    font-size: 100px;
+    line-height: 50px;
+}
 
- .preview {   
+.pretitle {
+    width: 60%;
+    margin-top: .5rem;
+    font-size: 16bbbbbbbbpx;
+}
+
+.suport {
+    display: flex;
+}
+
+.suport>p {
+    font-size: 6px;
+    width: 50%;
+}
+
+.preview {
     width: 100%;
 }
 
@@ -121,16 +129,13 @@ ul{
     background-size: cover;
     background-color: darkgray;
 }
+
 .btn1 {
     font-size: 10px;
-    padding: 20px 12px 20px 12px; 
+    padding: 20px 12px 20px 12px;
     border-radius: 28px;
-    border: none ;
-    color:#fefefe;
-    background:#000;
+    border: none;
+    color: #fefefe;
+    background: #000;
     font-weight: bold;
-
- }
-
- 
- 
+}
