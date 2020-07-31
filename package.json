@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "link-upstream": "git remote add upstream https://github.com/overlineink/Weekly-Inspiration.git",
+    "sync": "git checkout master && git fetch upstream && git merge upstream/master"
   },
   "repository": {
     "type": "git",
