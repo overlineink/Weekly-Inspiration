@@ -1,0 +1,84 @@
+/*
+*   0. Reseting default browser configurations
+*   1. Navbar
+*   2. Buttons 
+*/
+
+/* 0. Reseting default browser configurations */
+:host {
+    --default-color: #5e5e5e;
+    --default-button-txt-color: #FFFFFF;
+    --default-button-bg-color: #000001;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    color: var(--default-color);
+    font-family: Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+/* 1. Navbar */
+
+.logo {
+    font-size: 2.5rem;
+    margin-right: 4.5rem;
+}
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3.5rem;
+}
+
+.navbar-menu {
+    margin-right: auto;
+}
+
+.navbar-menu > .navbar-list {
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbar-menu > .navbar-list > .navbar-list-item {
+    display: inline-block;
+}
+
+.navbar-menu > .navbar-list > .navbar-list-item:not(:last-child) {
+    margin-right: 1rem;
+}
+
+/* 2. Buttons */
+
+.button {
+    outline: none !important;
+    border: none;
+    padding: 1rem 2rem;
+    font-weight: 500;
+}
+
+.button:hover, .button:focus {
+    cursor: pointer;
+}
+
+.search-button {
+    padding: 1rem 0;
+    background: transparent !important;
+    font-size: 1.25rem;
+}
+
+.bg-white {
+    color: #000001;
+    background-color: #FFFFFF;
+}
+
+.bg-dark {
+    color: #FFFFFF;
+    background-color: #000001;
+}
