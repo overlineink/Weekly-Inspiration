@@ -1,7 +1,8 @@
 /*
 *   0. Reseting default browser configurations
 *   1. Navbar
-*   2. Buttons 
+*   2. Buttons
+*   3. Texts
 */
 
 /* 0. Reseting default browser configurations */
@@ -81,4 +82,10 @@ a {
 .bg-dark {
     color: #FFFFFF;
     background-color: #000001;
+}
+
+/* 2. Texts */
+
+.text-small {
+    font-size: .75rem;
 }
