@@ -28,6 +28,10 @@ section {
     padding: 0;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 a {
     text-decoration: none !important;
 }
@@ -303,5 +307,41 @@ a {
 }
 
 @media only screen and (max-width: 1440px) {
-    
+    .what-is-github {
+        width: 85%;
+    }
+
+    .enterprise-support {
+        left: 185px;
+        bottom: 185px;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    .what-is-github {
+        width: 100%;
+    }
+
+    .enterprise-support {
+        left: 200px;
+        bottom: 100px;
+    }
+
+    .gh-center {
+        height: 500px;
+    }
+
+    .gh-bottom {
+        height: 220px;
+    }
+
+    .right {
+        padding: 1rem;
+        width: 80%;
+        margin-left: 5rem;
+    }
+
+    .card {
+        width: 100%;
+    }
 }
