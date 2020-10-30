@@ -105,3 +105,142 @@
     font-display: block;
     src: url('fonts/sf-ui/SFUIText-HeavyItalic.ttf') format('truetype');
 }
+
+/* Artegra Sans */
+
+/* Thin */
+
+@font-face {
+    font-family: 'Artegra Sans';
+    font-style: normal;
+    font-weight: 100;
+    src: url('fonts/ArtegraSans/ArtegraSans-Thin.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Artegra Sans';
+    font-style: italic;
+    font-weight: 100;
+    src: url('fonts/ArtegraSans/ArtegraSans-ThinItalic.otf') format('opentype');
+}
+
+/* Extra Light */
+
+@font-face {
+    font-family: 'Artegra Sans';
+    font-style: normal;
+    font-weight: 200;
+    src: url('fonts/ArtegraSans/ArtegraSans-ExtraLight.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Artegra Sans';
+    font-style: italic;
+    font-weight: 200;
+    src: url('fonts/ArtegraSans/ArtegraSans-ExtraLightItalic.otf') format('opentype');
+}
+
+/* Light */
+
+@font-face {
+    font-family: 'Artegra Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: url('fonts/ArtegraSans/ArtegraSans-Light.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Artegra Sans';
+    font-style: italic;
+    font-weight: 300;
+    src: url('fonts/ArtegraSans/ArtegraSans-LightItalic.otf') format('opentype');
+}
+
+/* Regular */
+
+@font-face {
+    font-family: 'Artegra Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/ArtegraSans/ArtegraSans-Regular.otf') format('opentype');
+}
+
+/* Medium */
+
+@font-face {
+    font-family: 'Artegra Sans';
+    font-style: normal;
+    font-weight: 500;
+    src: url('fonts/ArtegraSans/ArtegraSans-Medium.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Artegra Sans';
+    font-style: italic;
+    font-weight: 500;
+    src: url('fonts/ArtegraSans/ArtegraSans-MediumItalic.otf') format('opentype');
+}
+
+/* Semi Bold */
+
+@font-face {
+    font-family: 'Artegra Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: url('fonts/ArtegraSans/ArtegraSans-SemiBold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Artegra Sans';
+    font-style: italic;
+    font-weight: 600;
+    src: url('fonts/ArtegraSans/ArtegraSans-SemiBoldItalic.otf') format('opentype');
+}
+
+/* Bold */
+
+@font-face {
+    font-family: 'Artegra Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: url('fonts/ArtegraSans/ArtegraSans-Bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Artegra Sans';
+    font-style: italic;
+    font-weight: 700;
+    src: url('fonts/ArtegraSans/ArtegraSans-BoldItalic.otf') format('opentype');
+}
+
+/* Extra Bold */
+
+@font-face {
+    font-family: 'Artegra Sans';
+    font-style: normal;
+    font-weight: 800;
+    src: url('fonts/ArtegraSans/ArtegraSans-ExtraBold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Artegra Sans';
+    font-style: italic;
+    font-weight: 800;
+    src: url('fonts/ArtegraSans/ArtegraSans-ExtraBoldItalic.otf') format('opentype');
+}
+
+/* Extra Bold */
+
+@font-face {
+    font-family: 'Artegra Sans';
+    font-style: normal;
+    font-weight: 900;
+    src: url('fonts/ArtegraSans/ArtegraSans-Black.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Artegra Sans';
+    font-style: italic;
+    font-weight: 900;
+    src: url('fonts/ArtegraSans/ArtegraSans-BlackItalic.otf') format('opentype');
+}

@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Github Inc.</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="FontAwesome/css/all.min.css">
+    <link rel="stylesheet" href="fonts/FontAwesome/css/all.min.css">
 </head>
+
 <body>
     <nav class="navbar">
         <div class="logo">
@@ -45,5 +47,79 @@
             <button class="button bg-dark">Sign up</button>
         </div>
     </nav>
+    <main>
+        <section class="content">
+            <div class="left">
+                <div class="what-is-github">
+                    <h1 class="title">Built for <strong>>_</strong> Developers</h1>
+                    <div class="mt-5">
+                        <p class="description">
+                            Github is the world's most secure, most scalable, and most loved developer platform.
+                        </p>
+                        <p class="description">
+                            Join millions of developers and businesses.
+                        </p>
+                    </div>
+                </div>
+                <div class="enterprise-support">
+                    <div>
+                        <img src="assets/gh4.png" class="gh-middle" alt="">
+                    </div>
+                    <div>
+                        <h1 class="enterprese-title">Enterprise</h1>
+                        <p class="enterprese-brief">Deploy to your environment of the cloud.</p>
+                        <button class="mt-2 button button-as-link">
+                            Start a free trial
+                            <span class="fa fa-arrow-right"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <div class="card">
+                    <div class="get-started">
+                        <div class="dark-circle">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-git-branch">
+                                <line x1="6" y1="3" x2="6" y2="15"></line>
+                                <circle cx="18" cy="6" r="3"></circle>
+                                <circle cx="6" cy="18" r="3"></circle>
+                                <path d="M18 9a9 9 0 0 1-9 9"></path>
+                            </svg>
+                        </div>
+                        <h1 class="title title-sm">Get started</h1>
+                    </div>
+                    <form name="sign-up">
+                        <div class="form-field">
+                            <input type="text" placeholder="@cyberduck" autocomplete="username">
+                        </div>
+                        <div class="form-field">
+                            <input type="text" placeholder="cyberduck@github.com" autocomplete="email">
+                        </div>
+                        <div class="form-field">
+                            <input type="password" placeholder="Password" autocomplete="current-password">
+                        </div>
+                        <p class="advice-text mt-2">
+                            Make sure it's at least 15 characters <a class="advice-link" href="#">Learn more</a>
+                        </p>
+                    </form>
+                    <div class="mt-5 center">
+                        <button class="button singup-button">
+                            Sign up for GitHub
+                        </button>
+                    </div>
+                    <p class="text-small text-gray mt-3">
+                        By clicking "Sign up for GitHub", you agree to our Terms of Service and Privacy Statement.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <img src="assets/gh1.png" class="gh-center" alt="">
+        <img src="assets/gh2.png" class="gh-bottom" alt="">
+    </main>
+
+    <script src="https://unpkg.com/feather-icons"></script>
 </body>
+
 </html>

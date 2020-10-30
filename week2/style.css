@@ -5,6 +5,8 @@
 *   3. Texts
 */
 
+@import "fonts.css";
+
 /* 0. Reseting default browser configurations */
 :host {
     --default-color: #5e5e5e;
@@ -16,76 +18,290 @@
     margin: 0;
     padding: 0;
     color: var(--default-color);
-    font-family: Helvetica, sans-serif;
+    font-family: "SF UI Text", Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+main,
+section {
+    margin: 0;
+    padding: 0;
 }
 
 a {
     text-decoration: none !important;
 }
 
-/* 1. Navbar */
+@media only screen and (max-width: 1600px) {
+    /* 1. Navbar */
 
-.logo {
-    font-size: 2.5rem;
-    margin-right: 4.5rem;
+    .logo {
+        font-size: 2.5rem;
+        margin-right: 5.5rem;
+    }
+
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 3.5rem;
+    }
+
+    .navbar-menu {
+        margin-right: auto;
+    }
+
+    .navbar-menu>.navbar-list {
+        list-style: none;
+        text-decoration: none;
+    }
+
+    .navbar-menu>.navbar-list>.navbar-list-item {
+        display: inline-block;
+    }
+
+    .navbar-menu>.navbar-list>.navbar-list-item:not(:last-child) {
+        margin-right: 1.75rem;
+    }
+
+    /* 2. Buttons */
+
+    .button {
+        outline: none !important;
+        border: none;
+        padding: 1rem 2rem;
+        font-weight: 500;
+    }
+
+    .button:hover,
+    .button:focus {
+        cursor: pointer;
+    }
+
+    .search-button {
+        padding: 1rem 0;
+        background: transparent !important;
+        font-size: 1.25rem;
+    }
+
+    .button-as-link {
+        background: transparent !important;
+        padding: 0;
+        font-weight: 500;
+        color: #1138ff;
+    }
+
+    .singup-button {
+        width: 100%;
+        color: #FFF;
+        background-color: #3bc64a;
+        font-size: .95rem;
+        font-weight: 800;
+        padding: 1.55rem 3.75rem;
+    }
+
+    .bg-white {
+        color: #000001;
+        background-color: #FFFFFF;
+    }
+
+    .bg-dark {
+        color: #FFFFFF;
+        background-color: #000001;
+    }
+
+    /* 2. Texts */
+
+    .title {
+        font-size: 5.25rem;
+        line-height: 5.5rem;
+        letter-spacing: -3px;
+        font-weight: 900;
+        font-family: 'Artegra Sans', sans-serif;
+    }
+
+    .title-sm {
+        font-size: 2rem;
+        letter-spacing: unset;
+        font-weight: 700;
+    }
+
+    .description {
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+    .description:first-child {
+        width: 85% !important;
+    }
+
+    .text-small {
+        font-size: .75rem;
+    }
+
+    .text-gray {
+        color: #808080 !important;
+    }
+
+    /* Content */
+
+    .content {
+        display: grid;
+        grid-template-columns: 2fr auto;
+    }
+
+    /* What Is Github */
+
+    .what-is-github {
+        width: 70%;
+        padding: 4.75rem 7.5rem 0 7.5rem;
+    }
+
+    /* Icons */
+
+    .gh-center {
+        height: 600px;
+        position: absolute;
+        left: 600px;
+        top: 160px;
+    }
+
+    .gh-bottom {
+        height: 240px;
+        position: absolute;
+        left: 100px;
+        bottom: -10px;
+    }
+
+    /* Enterprise Support */
+
+    .enterprise-support {
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        left: 200px;
+        bottom: 120px;
+    }
+
+    .enterprese-title {
+        font-size: 1.25rem;
+        font-weight: 500;
+    }
+
+    .enterprese-brief {
+        margin-top: .25rem;
+        width: 70%;
+    }
+
+    /* Get Started */
+
+    .card {
+        padding: 2.25rem 3.55rem;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        width: 460px;
+        height: auto;
+        margin-right: 8rem;
+    }
+
+    .get-started {
+        display: flex;
+        align-items: center;
+    }
+
+    .dark-circle {
+        margin-right: .5rem;
+        color: #FFF;
+        background-color: #000001;
+        width: 36px;
+        height: 36px;
+        padding: .55rem;
+        border-radius: 2rem;
+    }
+
+    .dark-circle>svg {
+        width: 18px;
+        height: 18px;
+    }
+
+    .advice-text {
+        font-size: .75rem;
+        width: 80%;
+
+    }
+
+    .advice-link {
+        text-decoration: underline !important;
+    }
+
+    /* Orientation */
+
+    .center {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* Utils */
+
+    .mt-1 {
+        margin-top: .5rem;
+    }
+
+    .mt-2 {
+        margin-top: 1rem;
+    }
+
+    .mt-3 {
+        margin-top: 1.5rem;
+    }
+
+    .mt-4 {
+        margin-top: 2rem;
+    }
+
+    .mt-5 {
+        margin-top: 2.5rem;
+    }
+
+    .mt-6 {
+        margin-top: 3rem;
+    }
+
+    .mt-7 {
+        margin-top: 3.5rem;
+    }
+
+    .mt-8 {
+        margin-top: 4rem;
+    }
+
+    /* Form */
+
+    form[name="sign-up"] {
+        padding: .5rem 1rem 0 2.75rem;
+        text-align: left;
+    }
+
+    form[name="sign-up"]>p {
+        color: #808080;
+    }
+
+    .form-field>input {
+        width: 100%;
+        border: none;
+        border-radius: 0 !important;
+        outline: none !important;
+        border-bottom: 1px solid #d1d1d1;
+        padding: .5rem .55rem;
+        font-size: 1rem;
+        font-weight: 400;
+        color: #191919;
+    }
+
+    .form-field:not(:last-child) {
+        margin-bottom: 1.75rem;
+    }
 }
 
-
-.navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 3.5rem;
-}
-
-.navbar-menu {
-    margin-right: auto;
-}
-
-.navbar-menu > .navbar-list {
-    list-style: none;
-    text-decoration: none;
-}
-
-.navbar-menu > .navbar-list > .navbar-list-item {
-    display: inline-block;
-}
-
-.navbar-menu > .navbar-list > .navbar-list-item:not(:last-child) {
-    margin-right: 1rem;
-}
-
-/* 2. Buttons */
-
-.button {
-    outline: none !important;
-    border: none;
-    padding: 1rem 2rem;
-    font-weight: 500;
-}
-
-.button:hover, .button:focus {
-    cursor: pointer;
-}
-
-.search-button {
-    padding: 1rem 0;
-    background: transparent !important;
-    font-size: 1.25rem;
-}
-
-.bg-white {
-    color: #000001;
-    background-color: #FFFFFF;
-}
-
-.bg-dark {
-    color: #FFFFFF;
-    background-color: #000001;
-}
-
-/* 2. Texts */
-
-.text-small {
-    font-size: .75rem;
+@media only screen and (max-width: 1440px) {
+    
 }
