@@ -17,19 +17,19 @@ body {
 
 a {
     text-decoration: none;
-    font-size: 8px;
+    font-size: 1.25rem;
 }
 
 
 header {
     display: flex;
     justify-content: space-between;
-    padding: 6px 12px 6px 12px;
+    padding: 1rem 2rem;
 }
 
 .logo {
     font-weight: 700;
-    font-size: 10px;
+    font-size: 2.25rem;
 }
 
 .navbar > ul {
@@ -41,7 +41,7 @@ header {
 }
 
 .navbar-list > li:not(:last-child) {
-    margin-right: 5px;
+    margin-right: 1rem;
 }
 
 .h-full {
@@ -53,7 +53,7 @@ header {
 }
 
 .separator {
-    font-size: 10px;
+    font-size: 1.5rem;
     color: #616161;
 }
 
@@ -64,19 +64,21 @@ header {
 
 .presentation {
     width: 100%;
-    padding: 55px;
+    padding: 5rem;
 }
 
 .title {
     width: 90%;
-    font-size: 48px;
-    line-height: 40px;
+    font-size: 8rem;
+    line-height: 6.25rem;
+    font-weight: 800;
 }
 
 .pretitle {
-    width: 60%;
+    width: 50%;
     margin-top: .5rem;
-    font-size: 10px;
+    font-size: 1.55rem;
+    line-height: 1.55rem;
 }
 
 .mt-0 {
@@ -93,27 +95,33 @@ header {
 
 .btn {
     border: none;
-    border-radius: 6px;
-    padding: 8px 12px 8px 12px;
-    font-size: 8px;
+    border-radius: 1.25rem;
+    padding: 1.25rem 2rem;
+    font-size: 1rem;
     color: #000;
     font-weight: bold;
 }
 
+.btn:hover, .btn:focus {
+    outline: none !important;
+    cursor: pointer;
+}
+
 .support {
     display: flex;
+    margin-top: 5.75rem;
 }
 
 .support > p {
-    font-size: 6px;
+    font-size: 1.05rem;
     width: 50%;
 }
 
 .team {
-    width: 32px;
+    width: 72px;
     height: auto;
-    margin-top: -6px;
-    margin-right: .5rem;
+    margin-top: -.5rem;
+    margin-right: .75rem;
 }
 
 .preview {   
@@ -122,9 +130,9 @@ header {
 
 .bg-cover {
     position: absolute;
-    top: 20px;
-    right: -5px;
-    height: 360px;
+    top: 3rem;
+    right: 0;
+    height: 48rem;
     width: auto;
     background-repeat: no-repeat;
     background-size: cover;
